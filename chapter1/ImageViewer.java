@@ -56,3 +56,4 @@ class ImageViewerFrame extends JFrame{
         }
 }
 
+// Now go to chapter 2
