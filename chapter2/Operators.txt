@@ -21,5 +21,76 @@ double x = 4;
 double y = Math.sqrt(x);
 System.out.println(y); // prints 2.0
 
-For raising a quanity to a power You need to use pow method
+For raising a quanity to a power You need to use pow method.
 
+double y = Math.pow(x, a);
+
+so here we set y to be x raised to the power a 
+(x^a)
+Some math functions can be Math.sin, Math.cos, Math.tan, Math.eexp, Math.log, Math.PI, Math.E and etc;
+
+
+# Conversions between Numeric Types
+                          [char]
+                            |
+                            |
+                            \/
+[byte] ---> [short] ---> [int] ---> [long]
+                            :   \ /   :
+                            :   / \   :
+                            \/       \/
+                         [float] --->[double]
+
+Okay I know u skipped the above figure i tryna do but listen,
+
+Byte can be converted to short and 
+short can be converted to int
+int to long
+long to double
+
+int can be converted to float but will not give precise answer.
+same with when a long is converted into float but int can be converted to double no problem
+and char is only where it is inversible it tho can converted to int
+
+# Combining Assignment with Operators
+
+for e.g. 
+x += 4;
+is equivalent to 
+x = x + 4;
+
+# Increment and Decrement Operators;
+
+int n = 12;
+n++ 
+
+For e.g.
+int m = 7;
+int n = 7;
+int a = 2 * ++m; >> now a is 16, m is 8
+int b = 2 * n++; >> now b is 14, n is 8
+
+(Above is postfix and prefix forms, Prefix does the addition first; the postfix form evaluates to the old value of the variable.)
+
+# Relational and boolean Operators
+
+3 == 7
+is false
+!= (used for inequality)
+3 != 7
+is true
+
+Combine two expressionals with the && operator,
+expression1 && expression2
+
+For example:
+x != 0 && 1 / x > x+y // no division by 0
+
+Finally, Java supports the ternary ? : operator that is useful.
+
+condition ? expression1 : expression2
+
+x < y ? x : y
+
+
+// >> Now go to Strings.txt
