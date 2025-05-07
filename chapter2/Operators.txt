@@ -1,0 +1,25 @@
+// 2.5 Operators
+
+# Operators 
+
+Operators are used to combine values.
+
+# Arithmetic Operators
+
+The usual arithmetic operators + - * / are used for addition, subtraction, multiplication and division.
+Integer remainder (sometimes called modulus)  is denoted by %. 
+For e.g.
+15 / 2 is 7
+15 % 2 is 1
+15.0 / 2 is 7.5
+
+# Mathematical Functions 
+
+The Math class contains an assortment of mathemaical functions.
+
+double x = 4;
+double y = Math.sqrt(x);
+System.out.println(y); // prints 2.0
+
+For raising a quanity to a power You need to use pow method
+

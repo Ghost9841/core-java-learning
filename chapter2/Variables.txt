@@ -1,0 +1,57 @@
+//  2.4 Variables and Constants
+
+# Declaring variables
+
+double salary;
+int vacationDays;
+long earthPopulation;
+boolean done;
+
+# Initializing Variables
+
+int vacationDays;
+vacationDays = 12;
+
+double salary = 65000.0;
+System.out.println(salary);
+int vacationDays = 12;
+
+# Constants 
+
+In Java, you use the keyword *final* to denote a constant.
+
+public class Constants {
+    public static void main(String[] args){
+        final double CM_PER_INCH = 2.54;
+        double paperWidth = 8.5;
+        double paperHeight = 11;
+        // Above is size of A4 paper btw
+        System.out.println("Paper size in centimeters: " + paperWidth * CM_PER_INCH + "by" + paperHeight * CM_PER_INCH);
+    }
+}
+
+Just like Above, it is more common to define a constants as a class like below code
+
+public class Constants {
+    public static final double CM_PER_INCH = 2.54;
+    public static void main(String[] args){
+        double paperWidth = 8.5;
+        double paperHeight = 11;
+        // Above is size of A4 paper btw
+        System.out.println("Paper size in centimeters: " + paperWidth * CM_PER_INCH + "by" + paperHeight * CM_PER_INCH);
+    }
+}
+
+# Enumerated Types
+
+Sometimes, a variable should only hold a restricted set of values. 
+For e.g. a cloth may come in four sizes : small, medium, large and ex tra large.
+An enumerated type has a finite number of named values.
+
+enum Size { SMALL, MEDIUM, LARGE, EXTRA_LARGE}
+
+Now you can declare variables of this type:
+Size s = Size.MEDIUM;
+
+
+// >> Now go to Operators.txt

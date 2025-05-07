@@ -11,4 +11,9 @@ public class Welcome{
 }
 
 
-// Second Listing is ImageViewer.java Listing 1.2
+/*
+object.method(parameters)
+You will be using this thing a lot so don't forget this and keep it in mind.
+*/
+
+// >> Second Listing is ImageViewer.java Listing 1.2

@@ -1,5 +1,5 @@
 package chapter1;
-//Listing 1.2
+// Listing 1.2 Image Viewer 
 
 import java.awt.*;
 import java.io.*;
@@ -56,4 +56,4 @@ class ImageViewerFrame extends JFrame{
         }
 }
 
-// Now go to chapter 2
+// Now Go to Chapter 2, FirstSample.java
