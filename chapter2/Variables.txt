@@ -12,6 +12,7 @@ boolean done;
 int vacationDays;
 vacationDays = 12;
 
+
 double salary = 65000.0;
 System.out.println(salary);
 int vacationDays = 12;
