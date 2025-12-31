@@ -3,6 +3,7 @@ public class FunctionExpl{
         greet();
         sum();
 }
+
     public static void greet() {
         System.out.println("Hello World");
     }
