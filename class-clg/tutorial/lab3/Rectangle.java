@@ -6,6 +6,7 @@ public class Rectangle {
    Rectangle(){
     width = 0;
     height = 0;
+    color = "White";
    }
 
    Rectangle(double width, double height, String color){
