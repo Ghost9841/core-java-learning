@@ -1,0 +1,10 @@
+I001,U011,B001,Air conditioning was not working during the event,IN_PROGRESS,U003
+I002,U012,B002,Microphone system had feedback issues throughout the event,DONE,U004
+I003,U013,B003,Projector screen was damaged and unusable,OPEN,
+I004,U014,B004,Hall was not cleaned before our event started,CLOSED,U005
+I005,U015,B005,Lighting kept flickering during the wedding reception,IN_PROGRESS,U006
+I006,U016,B006,Wi-Fi connection was very slow and kept disconnecting,OPEN,
+I007,U017,B007,Stage setup was different from what was agreed upon,CANCELLED,U003
+I008,U018,B008,Catering team arrived 2 hours late causing delay,DONE,U007
+I009,U011,B009,Chairs and tables were insufficient for our guest count,IN_PROGRESS,U008
+I010,U012,B002,Sound system was not set up before event started,CLOSED,U004

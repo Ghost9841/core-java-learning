@@ -1,0 +1,10 @@
+H001,Grand Auditorium,Auditorium,1000,300.0,true
+H002,Symphony Hall,Auditorium,1000,300.0,true
+H003,Crystal Ballroom,Banquet Hall,300,100.0,true
+H004,Royal Banquet Hall,Banquet Hall,300,100.0,true
+H005,Emerald Banquet Hall,Banquet Hall,300,100.0,false
+H006,Meeting Room A,Meeting Room,30,50.0,true
+H007,Meeting Room B,Meeting Room,30,50.0,true
+H008,Meeting Room C,Meeting Room,30,50.0,true
+H009,Meeting Room D,Meeting Room,30,50.0,false
+H010,Executive Suite,Meeting Room,30,50.0,true
